@@ -103,6 +103,10 @@ footer a{
     text-decoration: none;
 }
 
+footer div:first-child .col-12:nth-child(3) a:hover{
+    text-decoration: underline;
+}
+
 .social-row{
     display: flex;
     justify-content: center;
