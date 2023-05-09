@@ -8,11 +8,11 @@
 
 body, button{
     font-family: sans-serif;
+    color: #2c3e50;
 }
 
 .star-icon{
     font-size: 30px;
-    color: white;
     margin: 0 20px;
 }
 
@@ -25,10 +25,14 @@ body, button{
 }
 
 .lines{
-    border: 2px solid white;
+    border: 2px solid;
     opacity: 1;
     border-radius: 1px;
     width: 40%;
+}
+
+.lines.white{
+    border: 2px solid white;
 }
 
 /* bacground-color */
