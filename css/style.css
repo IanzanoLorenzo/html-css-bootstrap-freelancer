@@ -1,3 +1,5 @@
+/* general */
+
 *{
     margin: 0;
     padding: 0;
@@ -8,27 +10,48 @@ body, button{
     font-family: sans-serif;
 }
 
+.star-icon{
+    font-size: 30px;
+    color: white;
+    margin: 0 20px;
+}
+
+.star-row{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.lines{
+    border: 2px solid white;
+    opacity: 1;
+    border-radius: 1px;
+    width: 40%;
+}
+
+/* bacground-color */
+
 .background-blue{
     background-color: #2c3e50;
     color: white;
 }
 
-.background-gray{
-    background-color: gray;
+.background-bright-cyan{
+    background-color: #1abc9c;
 }
 
 .background-pink{
     background-color: pink;
-    height: 200px;
+    min-height: 200px;
 }
 
 .background-black{
     background-color: black;
 }
 
-main {
-    margin-top: 56px;
-}
+/* header */
 
 header nav div button.white-button{
     color: white;
@@ -37,4 +60,19 @@ header nav div button.white-button{
 
 header nav div button.white-button span{
     color: white;
+}
+
+/* main */
+
+main {
+    margin-top: 56px;
+}
+
+img{
+    max-width: 100%;
+}
+
+#start-bootstrap img{
+    width: 40%;
+    margin: 0 auto;
 }
